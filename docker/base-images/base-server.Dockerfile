@@ -1,4 +1,4 @@
-FROM alpine:3.12 AS base-server
+FROM alpine:3.14 AS base-server
 
 RUN apk add --update --no-cache \
     ca-certificates \
